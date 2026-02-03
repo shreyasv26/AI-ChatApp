@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Styling for the side (vertical) and bottom (horizontal) scrollbars */
+::-webkit-scrollbar {
+    width: 8px;   /* Vertical width */
+    height: 8px;  /* Horizontal height */
+  }
+  
+  /* Background of the scrollbar path */
+  ::-webkit-scrollbar-track {
+    background: #0f172a; /* Matches your chat background */
+  }
+  
+  /* The draggable part of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #334155; /* Matches your border-[#334155] color */
+    border-radius: 10px;
+    border: 2px solid #0f172a; /* Creates a padding effect */
+  }
+  
+  /* Hover effect for the scrollbar */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6; /* Matches your blue-500 brand color */
+  }
